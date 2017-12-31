@@ -1,5 +1,5 @@
 # coopminingfarms
-Cryptomining
+Cryptomining and decentralized web application based on blockchain and smartcontracts.
 
 ## Coop Mining Farms tree
 
