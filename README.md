@@ -18,3 +18,16 @@ __DATA BASES__
 >
 > BigchainDB
 
+__MARKUP LANGUAGES__
+> HTML5
+>
+> ejs
+>
+> handlebars
+
+__OTHERS__
+> YAML
+>
+> Markdown
+>
+> JSON
