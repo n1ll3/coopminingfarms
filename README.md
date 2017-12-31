@@ -24,6 +24,8 @@ __MARKUP LANGUAGES__
 > ejs
 >
 > handlebars
+>
+> XML
 
 __OTHERS__
 > YAML
