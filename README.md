@@ -15,4 +15,6 @@ __DATA BASES__
 > PostgreSQL
 >
 > MongoDB
+>
+> BigchainDB
 
