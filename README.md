@@ -4,8 +4,10 @@ Cryptomining
 ## Coop Mining Farms tree
 
 
-> dist
->   |---
->   +
->   |---
+__PROGRAMMING LANGUAGES__
+> JavaScript
 >
+> Phyton
+>
+> C++
+
