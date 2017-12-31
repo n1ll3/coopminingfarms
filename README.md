@@ -11,3 +11,8 @@ __PROGRAMMING LANGUAGES__
 >
 > C++
 
+__DATA BASES__
+> PostgreSQL
+>
+> MongoDB
+
