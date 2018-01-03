@@ -11,12 +11,25 @@ __PROGRAMMING LANGUAGES__
 >
 > C++
 
+__DEPENDENCIES__
+> Flask
+>
+> Meteor
+> 
+> NodeJS
+>
+> Electron
+
 __DATA BASES__
 > PostgreSQL
 >
 > MongoDB
 >
 > BigchainDB
+>
+> GraphQL
+>
+> MySQLAlquemist
 
 __MARKUP LANGUAGES__
 > HTML5
