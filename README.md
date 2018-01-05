@@ -11,6 +11,7 @@ __PROGRAMMING LANGUAGES__
 >
 > C++
 
+
 __DEPENDENCIES__
 > Flask
 >
@@ -19,6 +20,7 @@ __DEPENDENCIES__
 > NodeJS
 >
 > Electron
+
 
 __DATA BASES__
 > PostgreSQL
@@ -31,6 +33,7 @@ __DATA BASES__
 >
 > MySQLAlquemist
 
+
 __MARKUP LANGUAGES__
 > HTML5
 >
@@ -39,6 +42,7 @@ __MARKUP LANGUAGES__
 > handlebars
 >
 > XML
+
 
 __OTHERS__
 > YAML
