@@ -1,22 +1,29 @@
-#!/usr/bin/env nodejs
-// # :::=DEPENDENCIES=:::
 const express = require('express');
-const app     = express();
-const router  = express.Router();
-const http    = require('http');
+const app = express();
+const path = require('path');
+const pug = require('pug');
 
-const PORT = 3000;
+const PORT = 8080;
 
-const config = require('./config.js');
-module.exports = 'config.js'
+app.use('/views', express.static(path.join(__dirname, 'views')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use('/static',express.static(path.join(__dirname, 'static')));
+app.use('/css', express.static(path.join(__dirname, 'css')));
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.render('index', {
-      title: 'Coopminingfarms'
-  });
-  //res.end('Hello World\n');
-}).listen(8080, /*APP_PRIVATE_IP_ADDRESS*/'localhost');
-console.log('Server running at http://localhost:8080/');
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
-module.exports = router;
+app.use('/', function(req, res, err) {
+    res.render('index', {
+        title: "COOP MINING FARMS"
+    })
+
+    if ( err == true ) {
+        console.log(err.message);
+    }
+});
+
+
+app.listen(PORT, function() {
+    console.log('SERVER RUNNING ON PORT: ' + PORT);
+})

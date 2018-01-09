@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["styles.css"],"sourcesContent":[""],"file":"styles.css"}
+{"version":3,"file":"styles.css","sources":["styles.css"],"sourcesContent":["body,html{margin:0;padding:0;background:#f0f0f0;font:500 14px/150% \"Open Sans\",sans-serif}"],"names":[],"mappings":"AAAA,AAAA,IAAI,EAAC,AAAA,IAAI,CAAA;EAAC,MAAM,EAAC,CAAC;EAAE,OAAO,EAAC,CAAC;EAAE,UAAU,EAAC,OAAO;EAAE,IAAI,EAAC,oCAAoC,GAAG"}

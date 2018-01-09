@@ -1,2 +1,7 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  font: 500 14px/150% "Open Sans",sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */

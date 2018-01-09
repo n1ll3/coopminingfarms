@@ -31,13 +31,14 @@
     "express-handlebars": "^3.0.0",
     "fs": "0.0.1-security",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean-css": "^3.9.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
     "gulp-cleancss": "^0.2.2",
+    "gulp-cli": "^2.0.0",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.2",
+    "gulp-sourcemaps": "^2.6.3",
     "http": "0.0.0",
-    "mongoose": "^4.13.7",
+    "mongoose": "^4.13.9",
     "morgan": "^1.9.0",
     "nodemailer": "^4.4.1",
     "path": "^0.12.7",
@@ -46,7 +47,7 @@
     "socket.io": "^2.0.4"
   },
   "devDependencies": {
-    "nodemon": "^1.14.3",
+    "nodemon": "^1.14.9",
     "webpack": "^3.10.0"
   }
 }
