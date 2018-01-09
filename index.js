@@ -3,7 +3,7 @@ const app = express();
 const path = require('path');
 const pug = require('pug');
 
-// const PORT = 8080;
+const PORT = 8080;
 
 app.use('/views', express.static(path.join(__dirname, 'views')));
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -24,6 +24,6 @@ app.use('/', function(req, res, err) {
 });
 
 
-// app.listen(PORT, function() {
-//     console.log('SERVER RUNNING ON PORT: ' + PORT);
-// })
+app.listen(PORT, function() {
+    console.log('SERVER RUNNING ON PORT: ' + PORT);
+})
