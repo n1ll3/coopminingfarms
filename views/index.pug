@@ -1,15 +1,32 @@
 doctype
 html
     head
+        
+        meta(charset="utf-8")
+        
         title #{title}
         
+        meta(name="viewport", content="device-width, width-device=initial-scale=1")
+        
         link(rel="stylesheet", href="/css/styles.css")
+            
     body
 
-        h1 Hellow World!
-
-        h4 This is a sample page where is gonna be located coop mining farms corp.
-
-        a(href="home.pug") home
+    block content
         
-        
+        .app--wrapper
+            .header__wrapper.dM
+                nav.__menu--start
+                    .bW.dM
+                        img(src="/static/logo.svg", alt="")
+                        
+                        .menu--list-container
+                            ul.menu-tab.clearfix
+                                li.main--item
+                                    a(href="http://", target="_blank") home
+                                li.main--item
+                                    a(href="http://", target="_blank") pricing
+                                li.main--item
+                                    a(href="http://", target="_blank") about us
+                                li.main--item
+                                    a(href="http://", target="_blank") customer service

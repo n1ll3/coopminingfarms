@@ -2,3 +2,31 @@
     --base-color-gradient: #388e3c -webkit-gradient(linear, left bottom, left top, from(#3fa044), to(#388e3c)) no-repeat 0 0;
     --base-color: #388e3c;
 }
+
+.clearfix {
+    &::after {
+        display: table;
+        clear: both;
+    }
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.bW {
+    width: 1166px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.dM {
+    display: flex;
+    align-items: center;
+}
